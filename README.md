@@ -1,7 +1,7 @@
 # Node AWS Lambda RPC extension example
 
 This is an example of how one might implement the ability for the Lambda handler to communicate with Lambda extension.
-In this particular case, request / response data could be forwarded from the handler to the extension.
+In this particular case, request / response data is forwarded from the handler to the extension.
 
 Extension code lives in the `layer` directory and is a modification of the [sample example provided by AWS](https://github.com/aws-samples/aws-lambda-extensions/tree/main/nodejs-example-extension).
 
