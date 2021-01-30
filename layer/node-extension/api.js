@@ -46,7 +46,8 @@ export async function next(extensionId) {
 /**
  * Subscribe creates a server which will be used as a bridge between the extension and the Lambda wrapper.
  *
- * The Lambda wrapper will be sending http requests to this server. These will contain request / response data of the handler.
+ * The Lambda wrapper will be sending http requests to this server.
+ * The requests will contain request / response data of the handler.
  */
 export function subscribe(subscriber) {
   const server = http.createServer((req, res) => {
