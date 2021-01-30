@@ -9,7 +9,7 @@ As for the Lambda, the handler code could be found in the `functions/hello` dire
 
 ## Deploying
 
-1. Make sure that the extension-related files has execute permissions.
+1. Make sure that the extension-related files have execute permissions.
 
    - `chmod +x layer/extensions/index.js`
    - `chmod +x layer/node-extension`
